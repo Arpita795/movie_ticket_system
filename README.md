@@ -2,6 +2,7 @@
 
 ### Steps to run the project
 - Extract the zip folder where you want to run the system.
+- .env file was added in .env.example, please copy whole file and name it as .env
 - Set DB name to "ticket_booking" and set SMTP credential in .env file.
 - AppPassword should be your gmail app password [https://support.google.com/mail/answer/185833?hl=en-GB]
 - You must set app password befor run the project to get email when ticket booked.
