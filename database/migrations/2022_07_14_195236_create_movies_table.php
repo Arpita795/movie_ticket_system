@@ -14,10 +14,7 @@ class CreateMoviesTable extends Migration
     public function up()
     {
         Schema::create('movies', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->double('price',8,2)->nullable();            
-            $table->enum('status', ['0', '1'])->comment('0=>inactive,1=>active')->default('1');
+            $table->id();
             $table->timestamps();
         });
     }

@@ -8,7 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Movies extends Model
 {
     use HasFactory;
-
-    protected $table = 'movies';
-    public $timestamps = true;
 }
